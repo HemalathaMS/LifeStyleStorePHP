@@ -1,0 +1,221 @@
+body {
+       width: 100%;
+       height: 100%;
+       margin: 0;
+      }
+
+a {
+       text-decoration: none;
+       background-color: transparent;
+       color:#ededed;
+ }
+
+ .header{
+       background-color:#000;
+       color:#fff;
+       border-color: #080808;
+       min-height: 50px;
+       border: 1px solid transparent
+ }
+
+ .inner-header{
+      width:80%;
+      margin:auto;
+ }
+
+ .logo{
+       float: left;
+       height: 50px;
+       padding: 15px;
+       font-size: 20px;
+       font-weight: bold;
+ }
+
+.header-link{
+   float:right;
+   font-size:14px;
+   height: 50px;
+   padding: 15px 15px;
+   font-size:16px;
+   font-weight: bold;
+}
+
+.content{
+  min-height: 600px;
+}
+
+.banner-image{
+     padding-bottom: 50px;
+     margin-bottom: 20px;
+     text-align: center;
+     color: #f8f8f8;
+     background: url(images/Fashion-and-Lifestyle.png) no-repeat center;
+     background-size: cover;
+}
+
+.inner-banner-image{
+      padding-top: 12%;
+      width:80%;
+      margin:auto;
+}
+
+
+#container{
+      width:90%;
+      margin:auto;
+      overflow:hidden;
+}
+
+.items{
+   width:30%;
+   display: block;
+   padding: 4px;
+   margin-bottom: 20px;
+   line-height: 1.42857143;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   float:left;
+   margin-left:1%;
+}
+
+.thumbnail{
+      display: block;
+      max-width: 100%;
+      height: auto;
+}
+
+.caption{
+  color:#000;
+  padding:0px 10px 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer{
+     padding: 10px 0;
+     background-color: #101010;
+     color:#9d9d9d;
+     bottom: 0;
+     width: 100%;
+}
+
+banner_image{
+  padding-top: 75px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/intro-bg_1.jpg) no-repeat center center;
+  background-size: cover
+}
+
+
+#banner_content{
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 660px;
+}
+
+#employee_content{
+  position: relative;
+  padding-top: 12%;
+  padding-bottom: 38%;
+  max-width: 1200px;
+}
+
+.content-style{
+  padding-top:60px;
+  max-width: 900px;
+  padding-left: 400px;
+}
+
+.table-style{
+
+  max-width: 600px;
+  margin-left: 120px;
+}
+#modal-style{
+  padding-top:10px;
+  padding-left: 40px;
+  max-width: 400px;
+}
+.background{
+  background-image: url("images/employeeBackground.1jpg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bmenu{
+    padding: 0px;
+    margin: 30px 0 20px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 15px;
+    display: block;
+}
+.bmenu li a{
+	display: block;
+	color: #fff;
+	padding: 5px 20px;
+	margin: 8px;
+	background-color:#999;
+	letter-spacing: 1px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #0F9;
+	background: #595959;
+}
+.bmenu li a:hover{
+	margin-left:10px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	background: #808080;
+	text-shadow: 0px 0px 1px #0F9;
+}
+.lcontent{
+	position: relative;
+  width:18%;
+  margin: 0px 5px;
+	float:left;
+	opacity:0.9;
+	padding-bottom:180px;
+  padding-left: 20px;
+}
+.lcontent:hover {
+	position: relative;
+    width:18%;
+    margin: 0px 5px;
+	float:left;
+	opacity:0.9;
+	padding-bottom:100px;
+}
+
+.rcontent{
+	padding-top: 10px;
+  padding-left: 40px;
+	position:relative;
+	width:50%;
+	margin:0px 5px;
+	float:left;
+	overflow:auto;
+	padding-bottom:10px;
+  color:#000;
+
+}
+
+.form-background{
+  background-color:#334d4d;
+  color:#111; 
+}
